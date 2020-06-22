@@ -154,15 +154,43 @@
 
 
 // ====== Task # 2
-var a = new Date()
-a.getMonth(5)
-alert(a)
+// var a = new Date()
+// var now = a.getMonth()
+// if(now === 5){
+//    alert("Current Month : December")
+// }else(
+//   alert("Not a month")
+// )
 
 
+// ====== Task # 3
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var now = new Date();
+// var theDay = now.getDay();
+// var nameOfToday = dayNames[theDay];
+// alert(nameOfToday)
 
 
+// ====== Task # 4
+// var a = new Date()
+// var now = a.getDay()
+// if(now == 0){
+//   alert("It's Fun Day")
+// }else if(now == 6){
+//   alert("It's Fun Day")
+// }else(
+//   alert("it's Working Day")
+// )
 
 
+// ====== Task # 5
+// var a = new Date()
+// var now = a.getDate()
+// if ( now <= 15){
+//   alert("First fifteen days of the month")
+// }else{
+//   alert("Last days of the month")
+// }
 
 
 
@@ -173,9 +201,9 @@ alert(a)
 // ====== Task # 1
 // ====== Task # 1
 // ====== Task # 1
-// ====== Task # 1
-// ====== Task # 1
-// ====== Task # 1
+
+
+
 
 
 
