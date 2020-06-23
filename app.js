@@ -226,33 +226,47 @@
 
 
 // ====== Task # 10
-var now = new Date()
-var msnow = now.getTime()
-document.write(" On Reference Date : " + now  + "<br>")
-var since = first.getTime("Jan 1, 2020 00:00:00")
-var diff = now
-var sec = now/(1000 * 60) 
-document.write( sec + " " + " Seconds has pass since beginning From 2020 ")
+// var now = new Date()
+// var msnow = now.getTime()
+// document.write(" On Reference Date : " + now  + "<br>")
+// var since = first.getTime("Jan 1, 2020 00:00:00")
+// var diff = now
+// var sec = now/(1000 * 60) 
+// document.write( sec + " " + " Seconds has pass since beginning From 2020 ")
 
 
 
 
 
 
+// ====== Chapter From 35 To 38 ======
+
+// ====== Task # 1
+// function time(){
+//   var a = new Date()
+// document.write(a) 
+// }
+// time()
 
 
+// ====== Task # 2
+// function name(){
+//   var firstName = prompt("Write Your First Name")
+//   var lastName = prompt("Write Your Last Name")
+//   var fullName = firstName + lastName
+//   alert("Welcome Mr : " + fullName)
+// }
+// name()
 
 
-
-// ====== Task # 8
-// ====== Task # 8
-// ====== Task # 8
-// ====== Task # 8
-// ====== Task # 8
-// ====== Task # 8
-// ====== Task # 8
-
-
+// ====== Task # 3
+// function sum(){
+//     var firstNum = prompt("Write Your First Number")
+//     var secondNum = prompt("Write Your Second Number")
+//     var fullsum = Number(firstNum) + Number(secondNum)
+//     alert("Your Sum Is :  " + fullsum)
+//   }
+//   sum()
 
 
 
