@@ -193,15 +193,64 @@
 // }
 
 
+// ====== Task # 6
+// var now = new Date()
+// document.write("Current Date : " + now)
+// var currentmili = now.getTime()
+// document.write(" <br> Elapsed Miliseconds Since January 1, 1970 : " + currentmili)
+// var currentmin = currentmili/(1000*60)
+// document.write(" <br> Elapsed Minutes Since January 1, 1970 : " + currentmin)
+
+
+// ====== Task # 7
+// var now = new Date()
+// var currentHour = now.getHours()
+// if( currentHour < 12 ){
+//     alert("It's AM ")
+// }
+// else if( currentHour >= 12){
+//     alert("It's PM")
+// }
+
+
+// ====== Task # 8
+// var laterDate = new Date("Dec 31, 2020")
+// document.write(" Latter Date = " + laterDate)
+
+
+// ====== Task # 9
+// var ramadan = new Date("April, 23, 2020")
+// var a = ramadan.getTime()
+// var now = a/(1000 * 60 * 60 * 24 * 29 * 12 )
+// document.write( now + " " + "Days are past Since 1st Ramadan 2020")
+
+
+// ====== Task # 10
+var now = new Date()
+var msnow = now.getTime()
+document.write(" On Reference Date : " + now  + "<br>")
+var since = first.getTime("Jan 1, 2020 00:00:00")
+var diff = now
+var sec = now/(1000 * 60) 
+document.write( sec + " " + " Seconds has pass since beginning From 2020 ")
 
 
 
 
 
-// ====== Task # 1
-// ====== Task # 1
-// ====== Task # 1
 
+
+
+
+
+
+// ====== Task # 8
+// ====== Task # 8
+// ====== Task # 8
+// ====== Task # 8
+// ====== Task # 8
+// ====== Task # 8
+// ====== Task # 8
 
 
 
